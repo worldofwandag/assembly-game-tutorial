@@ -18,7 +18,7 @@ import Confetti from "react-confetti";
 
 export default function AssemblyEndgame() {
   // State values
-  const [currentWord, setCurrentWord] = useState(() => getRandomWord()) //string
+  const [currentWords, setCurrentWords] = useState(() => getRandomWord()) //string
   const [guessedLetters, setGuessedLetters] = useState([]) //array
  
   // Derived values
